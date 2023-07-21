@@ -3,7 +3,7 @@
 </script>
 
 <Widget>
-    <div>
+    <div slot="body">
         <h1>10:53</h1>
     </div>
 </Widget>

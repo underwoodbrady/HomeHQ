@@ -8,7 +8,7 @@
 
 </script>
 
-<div class="space-y-8">
+<div class="space-y-6">
     <div class="flex flex-1 flex-wrap justify-around">
         <Widget/>
         <Time/>

@@ -3,7 +3,13 @@
 </script>
 
 <Widget>
-    <div>
-        <h1>10:53</h1>
-    </div>
+    <section slot="header">
+        
+    </section>
+    <section slot="body">
+
+    </section>
+    <section slot="footer">
+
+    </section>
 </Widget>
