@@ -7,6 +7,7 @@
 	import Weather from '$lib/widgets/Weather.svelte';
 	import TallWidget from '$lib/TallWidget.svelte';
 	import Financials from '$lib/widgets/Financials.svelte';
+	import ResponsiveWidget from '$lib/ResponsiveWidget.svelte';
 
     //Most recently focused widget gets brighter colors
 </script>
@@ -26,7 +27,7 @@
 	</div>
 </div>
 
-<div class="wrapper mb-5">
+<div class="wrapper mb-6">
     <div class="one grid-item rounded-sm drop-shadow-md">One</div>
     <div class="two grid-item rounded-sm drop-shadow-md">Two</div>
     <div class="three grid-item rounded-sm drop-shadow-md">Three</div>
@@ -40,22 +41,22 @@
 
 <div class="wrapper">
     <div class="one"><Time /></div>
-    <div class="two"><TallWidget/></div>
+    <div class="two"><ResponsiveWidget/></div>
     <div class="three"><Todos /></div>
     <div class="four"><RaspPi /></div>
     <div class="five"><Weather /></div>
     <div class="six"><Notes /></div>
     <div class="seven">  <Financials/></div>
-    <div class="eight"><Widget /></div>
-    <div class="nine">Nine</div>
+    <div class="eight"><ResponsiveWidget /></div>
+    <div class="nine"><ResponsiveWidget/></div>
 </div>
 
 <style>
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  grid-auto-rows: 280px;
+  gap: 24px;
+  grid-auto-rows: 275px;
 }
 
 .grid-item{

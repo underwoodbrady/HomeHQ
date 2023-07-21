@@ -1,8 +1,9 @@
 <script lang="ts">
     import Widget from "$lib/Widget.svelte";
+    import ResponsiveWidget from '$lib/ResponsiveWidget.svelte';
 </script>
 
-<Widget>
+<ResponsiveWidget>
     <section slot="header" class="mb-5 flex justify-between items-center">
         <h2 class="text-lg font-semibold">Daily Todos</h2>
         <p class="text-sm font-light">Menu</p>
@@ -28,4 +29,4 @@
     <section slot="footer">
         <p class="text-sm font-light">1/4 complete</p>
     </section>
-</Widget>
+</ResponsiveWidget>

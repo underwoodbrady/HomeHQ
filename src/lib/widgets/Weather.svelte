@@ -1,8 +1,9 @@
 <script lang="ts">
     import Widget from "$lib/Widget.svelte";
+    import ResponsiveWidget from '$lib/ResponsiveWidget.svelte';
 </script>
 
-<Widget>
+<ResponsiveWidget>
     <section slot="header" class="flex justify-between items-center">
         <h2 class="font font-semibold text-2xl">Today</h2>
         <div class="flex space-x-4">
@@ -12,8 +13,10 @@
         </div>
     </section>
     <div slot="body" class="h-full flex items-center justify-between">
-        <div class="w-16 h-16 bg-white rounded-full"></div>
-        <h1 class="font-semibold text-6xl">67°</h1>
+        <div class="flex items-center space-x-8">
+            <div class="w-16 h-16 bg-white rounded-full"></div>
+            <h1 class="font-semibold text-6xl">67°</h1>
+        </div>
         <div class="text-sm">
             <div class="flex items-center space-x-4 justify-between">
                 <p class="font-light">Precip</p>
@@ -68,4 +71,4 @@
         </div>
 
     </section>
-</Widget>
+</ResponsiveWidget>

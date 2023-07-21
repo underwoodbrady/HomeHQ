@@ -1,8 +1,9 @@
 <script lang="ts">
 	import TallWidget from '$lib/TallWidget.svelte';
+    import ResponsiveWidget from '$lib/ResponsiveWidget.svelte';
 </script>
 
-<TallWidget>
+<ResponsiveWidget>
 	<section slot="header" class="mb-6 flex justify-between items-center">
 		<h2 class="text-xl font-semibold">Capital One</h2>
 		<p class="text-sm font-light">YTD <span class="font-semibold ml-1">+24%</span></p>
@@ -91,4 +92,4 @@
 		</div>
 	</div>
 	<section slot="footer" />
-</TallWidget>
+</ResponsiveWidget>
