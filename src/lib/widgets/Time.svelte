@@ -1,5 +1,6 @@
 <script lang="ts">
     import Widget from "$lib/Widget.svelte";
+    //Show sunset and sunrise time?
 </script>
 
 <Widget>
@@ -10,9 +11,9 @@
         </div>
     </section>
     <div slot="body" class="flex justify-center items-center h-full">
-        <h1 class="text-6xl tracking-wider font-semibold">6:54</h1>
+        <h1 class="text-7xl tracking-wider font-semibold">6:54</h1> 
     </div>
     <section slot="footer" class="flex justify-center">
-            <p class="font-thin">"let yourself heal" - <span class="font-normal">mo bamba</span></p>
+            <p class="font-thin italic">"let yourself heal" - <span class="font-normal not-italic">mo bamba</span></p>
     </section>
 </Widget>
