@@ -6,3 +6,22 @@ body{
     background-color: rgb(24,24,28);
     color:white;
 }
+
+/*CUSTOM SCROLLBAR*/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    right: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(40, 40, 46,0.7);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(60, 60, 66,0.7);
+}

@@ -8,6 +8,7 @@
 	import TallWidget from '$lib/TallWidget.svelte';
 	import Financials from '$lib/widgets/Financials.svelte';
 	import ResponsiveWidget from '$lib/ResponsiveWidget.svelte';
+	import News from '$lib/widgets/News.svelte';
 
     //Most recently focused widget gets brighter colors
 </script>
@@ -47,7 +48,7 @@
     <div class="five"><Weather /></div>
     <div class="six"><Notes /></div>
     <div class="seven">  <Financials/></div>
-    <div class="eight"><ResponsiveWidget /></div>
+    <div class="eight"><News /></div>
     <div class="nine"><ResponsiveWidget/></div>
 </div>
 
